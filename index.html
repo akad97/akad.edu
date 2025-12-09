@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM - Introduction à Python</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <h1>QCM - Introduction à Python</h1>
+                <p class="subtitle">40 questions - Répondez à toutes les questions puis cliquez sur "Soumettre"</p>
+            </header>
+
+            <div id="score-display" class="score-display hidden"></div>
+
+            <div id="questions-container"></div>
+
+            <div class="actions">
+                <button id="submit-btn" class="btn btn-primary">
+                    Soumettre les réponses
+                </button>
+                <button id="reset-btn" class="btn btn-secondary hidden">
+                    🔄 Recommencer
+                </button>
+            </div>
+        </div>
+
+        <footer class="info-card">
+            <p class="info-title">📝 QCM Cours 1 : Introduction à Python</p>
+            <p>Chapitres : Introduction & Turtle | Variables et Types | Conditions | Fonctions | Boucles | Listes</p>
+        </footer>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
